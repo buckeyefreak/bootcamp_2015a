@@ -21,6 +21,10 @@ Given /^I click the "([^"]*)" link$/ do |link_name|
   @current_page.navigate_by_link(link_name)
 end
 
+When(/^I click the "([^"]*)" icon$/) do |icon_title|
+  @current_page.navigate_by_div(icon_title)
+end
+
 When /^I navigate from the "([^"]*)" page to the "([^"]*)" page$/ do |from_page,to_page|
   navigate(from_page, to_page)
 end
