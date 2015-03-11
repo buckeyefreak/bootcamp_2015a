@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_page_module.rb" afterPath="$PROJECT_DIR$/pages/base_page_module.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/world_extension.rb" afterPath="$PROJECT_DIR$/features/support/world_extension.rb" />
@@ -20,7 +18,8 @@
     <file path="$PROJECT_DIR$/../bootcamp_2015/features/support/env.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426085649865" ignored="false" />
     <file path="/Gemfile" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086896615" ignored="false" />
     <file path="/common_steps.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426088677875" ignored="false" />
-    <file path="/world_extension.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426104299741" ignored="false" />
+    <file path="/world_extension.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426105552114" ignored="false" />
+    <file path="/usa_gov.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426105234947" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +42,16 @@
       <file leaf-file-name="base_page_module.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="266" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="16" column="6" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="world_extension.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="world_extension.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/world_extension.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="0.8613333">
+            <state line="24" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +69,7 @@
       <file leaf-file-name="common_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="43" selection-start="663" selection-end="704" vertical-scroll-proportion="0.0">
+            <state line="17" column="27" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usa_gov.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="usa_gov.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="50" selection-start="4057" selection-end="4080" vertical-scroll-proportion="0.0">
+            <state line="98" column="20" selection-start="4161" selection-end="4161" vertical-scroll-proportion="0.63733333">
               <folding />
             </state>
           </provider>
@@ -134,8 +133,8 @@
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/usa_steps.rb" />
         <option value="$PROJECT_DIR$/pages/base_page_module.rb" />
-        <option value="$PROJECT_DIR$/features/usa_gov.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
+        <option value="$PROJECT_DIR$/features/usa_gov.feature" />
         <option value="$PROJECT_DIR$/features/support/world_extension.rb" />
       </list>
     </option>
@@ -276,41 +275,7 @@
       <recent name="C:\Users\zcorya\RubymineProjects\repos\bootcamp_2015a\features\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.short navigate to bond calculator from home page">
-    <configuration default="false" name="USA.gov" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="bootcamp_2015a" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/getting_started.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^USA\.gov$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.short navigate to calculate value">
     <configuration default="false" name="Enter search - more than 50 characters - truncation" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="bootcamp_2015a" />
@@ -443,9 +408,41 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="short navigate to calculate value" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="bootcamp_2015a" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/usa_gov.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^short navigate to calculate value$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -545,19 +542,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.Enter search - more than 50 characters - truncation" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.Enter search - more than 50 characters - truncation" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.short navigate to calculate value" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.short navigate to calculate value" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.short navigate to calculate value" />
         <item index="3" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.short navigate to bond calculator from home page" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
       </list>
     </recent_temporary>
   </component>
@@ -571,7 +568,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -652,7 +649,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -709,20 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="266" selection-end="319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="50" selection-start="4057" selection-end="4080" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="3" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0">
@@ -737,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="663" selection-end="704" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/usa_home_page.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="48" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
@@ -751,9 +727,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="6" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="27" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/world_extension.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="4" selection-start="787" selection-end="787" vertical-scroll-proportion="0.8613333">
+        <state line="24" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="20" selection-start="4161" selection-end="4161" vertical-scroll-proportion="0.63733333">
           <folding />
         </state>
       </provider>

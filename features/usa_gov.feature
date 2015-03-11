@@ -94,3 +94,8 @@ Feature: USA gov home page
   Scenario: short navigate to bond calculator from home page
     When I navigate from the "USA home" page to the "Savings Bond Calculator" page
     Then I will be on the "Savings Bond Calculator" page
+
+    #not getting correct browser_title or page_title
+  Scenario: short navigate to calculate value
+    When I navigate from the "USA home" page to the "Calculate the Value of Your Paper Savings Bond(s)" page
+    Then I will be on the "Calculate the Value of Your Paper Savings Bond(s)" page
