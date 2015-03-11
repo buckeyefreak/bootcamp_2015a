@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_page_module.rb" afterPath="$PROJECT_DIR$/pages/base_page_module.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/helper_methods.rb" afterPath="$PROJECT_DIR$/features/support/helper_methods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/usa_home_page.rb" afterPath="$PROJECT_DIR$/pages/usa_home_page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/usa_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/usa_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426093930940" ignored="false" />
+    <file path="/Dummy.txt" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426096061044" ignored="false" />
     <file path="/getting_started.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426083810158" ignored="false" />
     <file path="/env.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086518520" ignored="false" />
     <file path="/a.dummy" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426080505530" ignored="false" />
@@ -82,7 +74,7 @@
       <file leaf-file-name="usa_steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/usa_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="3" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.8589212">
+            <state line="37" column="3" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.88095236">
               <folding />
             </state>
           </provider>
@@ -171,9 +163,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="800" />
-    <option name="width" value="800" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,18 +279,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -600,18 +593,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="800" y="0" width="800" height="860" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24932249" sideWeight="0.6712707" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2682927" sideWeight="0.44475138" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14478764" sideWeight="0.44475138" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4088398" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5552486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5542484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -747,20 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="61" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="3" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
@@ -782,9 +761,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="61" selection-start="3225" selection-end="3225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="3" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/usa_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="3" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.8589212">
+        <state line="37" column="3" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.88095236">
           <folding />
         </state>
       </provider>
