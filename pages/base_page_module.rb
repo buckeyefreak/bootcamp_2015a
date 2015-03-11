@@ -10,6 +10,10 @@ module BasePageModule
     BROWSER.link(:text => /^#{link_name}/).when_present.click
   end
 
+  def navigate_by_div(icon_title)
+    BROWSER.div(:id => 'icon1').when_present.click
+  end
+
   def browser_title
     BROWSER.title
   end

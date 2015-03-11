@@ -20,3 +20,7 @@ end
 Given /^I click the "([^"]*)" link$/ do |link_name|
   @current_page.navigate_by_link(link_name)
 end
+
+When(/^I click the "([^"]*)" icon$/) do |icon_title|
+  @current_page.navigate_by_div(icon_title)
+end
