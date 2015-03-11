@@ -1,3 +1,4 @@
+
 Before('~@launch') do
   HelperMethods.suppress_warnings do
     BROWSER = HelperMethods.launch_browser
