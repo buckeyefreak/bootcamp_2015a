@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_page_module.rb" afterPath="$PROJECT_DIR$/pages/base_page_module.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
-    </list>
+    <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="" />
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426097874889" ignored="false" />
@@ -59,7 +56,7 @@
       <file leaf-file-name="base_page_module.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="0.44541484">
+            <state line="21" column="92" selection-start="416" selection-end="416" vertical-scroll-proportion="0.779476">
               <folding />
             </state>
           </provider>
@@ -781,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="0.44541484">
+        <state line="21" column="92" selection-start="416" selection-end="416" vertical-scroll-proportion="0.779476">
           <folding />
         </state>
       </provider>
