@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/env.rb" afterPath="$PROJECT_DIR$/features/support/env.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/getting_started.feature" afterPath="$PROJECT_DIR$/features/getting_started.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/helper_methods.rb" afterPath="$PROJECT_DIR$/features/support/helper_methods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
     </list>
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +53,7 @@
       <file leaf-file-name="hooks.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
+            <state line="8" column="3" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,7 +71,7 @@
       <file leaf-file-name="helper_methods.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="3" selection-start="856" selection-end="856" vertical-scroll-proportion="1.2376873">
+            <state line="45" column="5" selection-start="1085" selection-end="1085" vertical-scroll-proportion="1.6381156">
               <folding />
             </state>
           </provider>
@@ -101,11 +98,11 @@
         <option value="$PROJECT_DIR$/getting_started.feature" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/features/support/transforms.rb" />
-        <option value="$PROJECT_DIR$/features/support/helper_methods.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/getting_started.feature" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/support/helper_methods.rb" />
       </list>
     </option>
   </component>
@@ -675,6 +672,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/getting_started.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="7" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
@@ -689,16 +693,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="3" selection-start="856" selection-end="856" vertical-scroll-proportion="1.2376873">
+        <state line="45" column="5" selection-start="1085" selection-end="1085" vertical-scroll-proportion="1.6381156">
           <folding />
         </state>
       </provider>
