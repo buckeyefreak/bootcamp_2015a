@@ -11,7 +11,7 @@ module BasePageModule
   end
 
   def navigate_by_div(icon_title)
-    BROWSER.div(:id => 'icon1').when_present.click
+    BROWSER.link(:title => icon_title).when_present.click
   end
 
   def browser_title

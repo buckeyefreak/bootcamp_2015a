@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base_page_module.rb" afterPath="$PROJECT_DIR$/pages/base_page_module.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +18,7 @@
     <file path="/Gemfile" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086896615" ignored="false" />
     <file path="/usa_gov.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426098209192" ignored="false" />
     <file path="/common_steps.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426097546208" ignored="false" />
-    <file path="/base_page_module.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426097889889" ignored="false" />
+    <file path="/base_page_module.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426099127097" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_page_module.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base_page_module.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+            <state line="12" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="0.44541484">
               <folding />
             </state>
           </provider>
@@ -103,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="common_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.77729255">
+            <state line="25" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +122,7 @@
       <file leaf-file-name="usa_gov.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="51" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.0">
+            <state line="89" column="33" selection-start="3758" selection-end="3758" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,8 +159,8 @@
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/usa_steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
-        <option value="$PROJECT_DIR$/pages/base_page_module.rb" />
         <option value="$PROJECT_DIR$/features/usa_gov.feature" />
+        <option value="$PROJECT_DIR$/pages/base_page_module.rb" />
       </list>
     </option>
   </component>
@@ -678,7 +676,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -767,23 +765,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+        <state line="25" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="51" selection-start="3828" selection-end="3828" vertical-scroll-proportion="0.0">
+        <state line="89" column="33" selection-start="3758" selection-end="3758" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
+    <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="34" selection-start="810" selection-end="810" vertical-scroll-proportion="0.77729255">
+        <state line="12" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="0.44541484">
           <folding />
         </state>
       </provider>
