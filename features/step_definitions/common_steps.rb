@@ -10,3 +10,13 @@ Given /^I am on the "(.*?)" page$/ do |page_name|
 
   @current_page.visit
 end
+
+Then /^I will be on the "([^"]*)" page$/ do |page_title|
+  if @current_page.window_count > 1
+    @current_page.use_last_window
+  end
+  expect(@current_page.browser_title).to include(page_title)
+end
+Given /^I click the "([^"]*)" link$/ do |link_name|
+  @current_page.navigate_by_link(link_name)
+end

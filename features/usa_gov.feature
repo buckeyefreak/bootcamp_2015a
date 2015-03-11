@@ -80,3 +80,13 @@ Feature: USA gov home page
 
   Scenario: Contents section links
     Then there is a link for each page section
+
+#Navigation
+
+  Scenario: navigate to bond calculator from home page
+    And I click the "Unclaimed Money, Taxes, and Credit Reports" link
+    And I click the "Saving and Investing" link
+    And I click the "Savings Bonds Online" link
+    And I click the "Tools" link
+    When I click the "Savings Bonds Calculator" link
+    Then I will be on the "Savings Bond Calculator" page
