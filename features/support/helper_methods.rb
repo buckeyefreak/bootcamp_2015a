@@ -32,23 +32,6 @@ module HelperMethods
       result
     end
 
-    def value_comparison(operator,actual,expected)
-      case operator
-        when '', /equal/
-          expected == actual
-        when 'less than'
-          actual < expected
-        when 'greater than'
-          actual > expected
-        when 'or less'
-          actual <= expected
-        when 'or more', 'at least'
-          actual >= expected
-        else
-          fail ("Comparison #{compare_to} not supported")
-      end
-    end
-
   end
 
   # make Methods instance methods in objects that include HelperMethods

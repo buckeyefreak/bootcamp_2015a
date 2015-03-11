@@ -66,31 +66,8 @@ Feature: USA gov home page
     When I submit a search "This.statement.can.have.50.characters.but.not....51"
     Then I see the search term truncated to 51 characters
 
-  Scenario: Failed search section
+  Scenario: Failed Search section exists
     Then I see a search field
-    And the search field value is "Selarch the Government..."
-
-#contents section
-
-  Scenario: Contents section exists
-    Then I see a contents section
-
-  Scenario: Contents section title
-    Then the section title contains the text "Content"
-
-  Scenario: Contents section links
-    Then there is a link for each page section
-
-#Navigation
-
-  Scenario: navigate to bond calculator from home page
-    And I click the "Unclaimed Money, Taxes, and Credit Reports" link
-    And I click the "Saving and Investing" link
-    And I click the "Savings Bonds Online" link
-    And I click the "Tools" link
-    When I click the "Savings Bonds Calculator" link
-    Then I will be on the "Savings Bond Calculator" page
-
-  Scenario: short navigate to bond calculator from home page
-    When I navigate from the "USA home" page to the "Savings Bond Calculator" page
-    Then I will be on the "Savings Bond Calculator" page
+    And the field value is "Se1arch the Government..."
+    And I see a search button
+    And the button label is "Sea1rch"
