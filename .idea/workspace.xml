@@ -4,7 +4,6 @@
     <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/steps.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +80,7 @@
       <file leaf-file-name="usa_gov.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="36" selection-start="808" selection-end="808" vertical-scroll-proportion="0.8780992">
+            <state line="20" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.70247936">
               <folding />
             </state>
           </provider>
@@ -112,8 +111,8 @@
         <option value="$PROJECT_DIR$/features/getting_started.feature" />
         <option value="$PROJECT_DIR$/features/support/helper_methods.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/usa_gov.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
       </list>
     </option>
   </component>
@@ -721,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="36" selection-start="808" selection-end="808" vertical-scroll-proportion="0.8780992">
+        <state line="20" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.70247936">
           <folding />
         </state>
       </provider>
