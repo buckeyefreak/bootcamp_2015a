@@ -20,3 +20,7 @@ end
 Given /^I click the "([^"]*)" link$/ do |link_name|
   @current_page.navigate_by_link(link_name)
 end
+
+When /^I navigate from the "([^"]*)" page to the "([^"]*)" page$/ do |from_page,to_page|
+  navigate(from_page, to_page)
+end

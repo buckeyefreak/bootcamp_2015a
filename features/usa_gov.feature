@@ -90,3 +90,7 @@ Feature: USA gov home page
     And I click the "Tools" link
     When I click the "Savings Bonds Calculator" link
     Then I will be on the "Savings Bond Calculator" page
+
+  Scenario: short navigate to bond calculator from home page
+    When I navigate from the "USA home" page to the "Savings Bond Calculator" page
+    Then I will be on the "Savings Bond Calculator" page
