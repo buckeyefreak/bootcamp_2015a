@@ -62,7 +62,7 @@
       <file leaf-file-name="steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="3" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
+            <state line="73" column="3" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="usa_gov.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.70247936">
+            <state line="26" column="35" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.29752067">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/features/getting_started.feature" />
         <option value="$PROJECT_DIR$/features/support/helper_methods.rb" />
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
-        <option value="$PROJECT_DIR$/features/usa_gov.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
+        <option value="$PROJECT_DIR$/features/usa_gov.feature" />
       </list>
     </option>
   </component>
@@ -237,41 +237,7 @@
       <recent name="C:\Users\zcorya\RubymineProjects\repos\bootcamp_2015a\features" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber.usa_gov">
-    <configuration default="false" name="launch phantomJS" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="bootcamp_2015a" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="ANSICON" value="" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/getting_started.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^launch phantomJS$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Cucumber.Enter search - more than 50 characters - truncation">
     <configuration default="false" name="getting_started" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="bootcamp_2015a" />
@@ -408,6 +374,40 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Enter search - more than 50 characters - truncation" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="bootcamp_2015a" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/usa_gov.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Enter search \- more than 50 characters \- truncation$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -504,19 +504,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber.launch phantomJS" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.getting_started" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.launch internet explorer" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber.getting_started" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.launch internet explorer" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Enter search - more than 50 characters - truncation" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.launch internet explorer" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.getting_started" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.launch phantomJS" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Enter search - more than 50 characters - truncation" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.launch internet explorer" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.getting_started" />
       </list>
     </recent_temporary>
   </component>
@@ -713,14 +713,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="3" selection-start="2374" selection-end="2374" vertical-scroll-proportion="0.0">
+        <state line="73" column="3" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.70247936">
+        <state line="26" column="35" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.29752067">
           <folding />
         </state>
       </provider>
