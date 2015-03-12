@@ -87,10 +87,9 @@ Feature: USA gov home page
     And I click the "Unclaimed Money, Taxes, and Credit Reports" link
     And I click the "Saving and Investing" link
     And I click the "Savings Bonds Online" link
-    And I click the "Savings Bond Calculator" icon
-    When I click the "Savings Bond Calculator" link
-    Then I will be on the "Savings Bond Calculator" page
+    When I click the "Savings Bond Calculator" icon
+    Then I will be on the "Savings Bond" page
 
   Scenario: short navigate to bond calculator from home page
-    When I navigate from the "USA home" page to the "Savings Bond Calculator" page
-    Then I will be on the "Savings Bond Calculator" page
+    When I navigate from the "USA home" page to the "Savings Bond" page
+    Then I will be on the "Savings Bond" page

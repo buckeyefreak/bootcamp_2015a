@@ -7,12 +7,15 @@ module BasePageModule
   end
 
   def navigate_by_link(link_name)
-    BROWSER.link(:text => /^#{link_name}/).when_present.click
+    BROWSER.wait(timeout=30)
+    if BROWSER.link(:text =>/^#{link_name}/).exist?
+      BROWSER.link(:text => /^#{link_name}/).click
+    else
+      BROWSER.link(:title => link_name).when_present.click
+    end
   end
 
-  def navigate_by_div(icon_title)
-    BROWSER.link(:title => icon_title).when_present.click
-  end
+
 
   def browser_title
     BROWSER.title
