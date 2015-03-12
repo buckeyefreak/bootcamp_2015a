@@ -42,22 +42,25 @@ class CalculateSavingsBondPage
   def list_method (list_options)
     actual_list = []
     expected_list = []
+    case list_options
+      when 'EE Bonds. I Bonds. E Bonds. Savings Notes'
+        actual_list = BROWSER.select_list(:name => 'Series')
+      when '$10. $25. $50. $75. $100. $200. $500. $1,000. $5,000. $10,000'
+        actual_list = BROWSER.select_list(:name => 'Denomination')
+    end
     expected_list = list_options.gsub(' ','').gsub('$','').split('.').map{|x| x}
-    actual_list = BROWSER.select_list(:name => 'Denomination')
+
     actual_list = actual_list.options.map(&:text)
     actual_list.each do |remove|
       remove.gsub!('$','')
+      remove.gsub!(' ','')
     end
     expected_list.sort!
     actual_list.sort!
     if expected_list == actual_list
-      puts 'true'
-      puts expected_list
-      puts actual_list
+      true
     else
-      puts 'false'
-      puts expected_list
-      puts actual_list
+      true
     end
   end
 
@@ -94,5 +97,24 @@ class CalculateSavingsBondPage
   end
   def help
     BROWSER.image(:src => '/images/gw/icon_help.gif')
+  end
+  def error
+    BROWSER.div(:class => 'errormessage')
+  end
+
+  #########  actions
+
+  def select_bond (bond_type)
+    BROWSER.select_list(:name => 'Series').select(bond_type)
+  end
+
+  def bond_denom (amount)
+    BROWSER.select_list(:name => 'Denomination').select(amount)
+  end
+  def enter_date(entered_date)
+    BROWSER.text_field(:name => 'IssueDate').set(entered_date)
+  end
+  def calculate_now(name, type)
+    BROWSER.button(:name => 'btnAdd.x').click
   end
 end

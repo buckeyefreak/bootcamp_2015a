@@ -48,3 +48,15 @@ Feature: treasury.gov
   Scenario: Help image exists
     Then I see the "help" "image"
 
+
+  Scenario Outline:Failing minimum denomination
+    When I have selected "<bond>"
+    And I have selected "<bad_denom>" denomination
+    And I have entered a "<good_date>" in issue date field
+    And I click the "calculate" "button"
+    Then I see the "error message" "section"
+    Examples:
+    | bond     |  bad_denom   | good_date |
+    | EE Bonds |     $10      | 10/2000   |
+    | I Bonds  |     $10      | 10/2005   |
+

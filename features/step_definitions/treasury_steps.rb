@@ -21,6 +21,8 @@ Then(/^I see the "(.*?)" "(.*?)"$/) do |section, type|
           expect(@current_page.save).to be_visible
         when 'help'
           expect(@current_page.help).to be_visible
+        when 'error message'
+          expect(@current_page.error).to be_visible
         else
           fail("The #{section} #{type} is not allowed in this step.")
       end
@@ -32,4 +34,19 @@ end
 
 Then(/^the options are "([^"]*)"$/) do |list_options|
   @current_page.list_method(list_options)
+end
+
+When(/^I have selected "([^"]*)"$/) do |bond_type|
+  @current_page.select_bond(bond_type)
+end
+
+When(/^I have selected "([^"]*)" denomination$/) do |amount|
+  @current_page.bond_denom(amount)
+end
+
+When(/^I have entered a "([^"]*)" in issue date field$/) do |entered_date|
+  @current_page.enter_date(entered_date)
+end
+When(/^I click the "([^"]*)" "([^"]*)"$/) do |name, type|
+  @current_page.calculate_now(name,type)
 end
