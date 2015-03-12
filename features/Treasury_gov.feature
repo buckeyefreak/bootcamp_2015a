@@ -9,14 +9,29 @@ Feature: treasury.gov
   Scenario: Value as of exists
     Then I see the "Value as of" "field"
 
+    Scenario: Value default value
+      Then the default value should be "current month/current year"
+
   Scenario: Series exists
     Then I see the "Series" "list"
+
+    Scenario: Series list
+      Then the options are "EE Bonds. I Bonds. E Bonds. Savings Notes"
+
+    Scenario: Series default value
+      Then the default value should be "EE bonds"
 
   Scenario: Update button exists
     Then I see the "Update" "button"
 
   Scenario: Denomination exists
     Then I see the "Denomination" "list"
+
+    Scenario: Denomination list
+      Then the options are "$10. $25. $50. $75. $100. $200. $500. $1,000. $5,000. $10,000"
+
+    Scenario: Denomination default value
+      Then the default value should be "$50"
 
   Scenario: Bond Serial Number exists
     Then I see the "Bond Serial Number" "field"

@@ -26,3 +26,10 @@ Then(/^I see the "(.*?)" "(.*?)"$/) do |section, type|
       end
   )
 end
+Then(/^the default value should be "([^"]*)"$/) do |default|
+  expect(@current_page.default_method(default)).to be_truthy
+end
+
+Then(/^the options are "([^"]*)"$/) do |list_options|
+  @current_page.list_method(list_options)
+end
