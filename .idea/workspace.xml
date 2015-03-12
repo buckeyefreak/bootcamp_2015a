@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="" />
+    <list default="true" id="12d67eab-fb52-4e95-aead-ed6112a27991" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/usa_gov.feature" afterPath="$PROJECT_DIR$/features/usa_gov.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="bootcamp_2015a.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426196769390" ignored="false" />
+    <file path="/Dummy.txt" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426198164236" ignored="false" />
     <file path="/getting_started.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426083810158" ignored="false" />
     <file path="/env.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086518520" ignored="false" />
     <file path="/a.dummy" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426080505530" ignored="false" />
@@ -13,7 +17,7 @@
     <file path="/temp.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086637135" ignored="false" />
     <file path="$PROJECT_DIR$/../bootcamp_2015/features/support/env.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426085649865" ignored="false" />
     <file path="/Gemfile" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426086896615" ignored="false" />
-    <file path="/usa_gov.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426098209192" ignored="false" />
+    <file path="/usa_gov.feature" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426199249645" ignored="false" />
     <file path="/common_steps.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426097546208" ignored="false" />
     <file path="/base_page_module.rb" changelist="12d67eab-fb52-4e95-aead-ed6112a27991" time="1426099127097" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,25 +42,25 @@
       <file leaf-file-name="usa_gov.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="33" selection-start="3758" selection-end="3758" vertical-scroll-proportion="0.0">
+            <state line="90" column="39" selection-start="3815" selection-end="3815" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common_steps.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="common_steps.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+            <state line="21" column="21" selection-start="683" selection-end="683" vertical-scroll-proportion="0.7782258">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base_page_module.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base_page_module.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.2857143">
+            <state line="8" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,17 +96,17 @@
         <option value="$PROJECT_DIR$/features/support/hooks.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/steps.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/usa_steps.rb" />
+        <option value="$PROJECT_DIR$/pages/base_page_module.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/common_steps.rb" />
         <option value="$PROJECT_DIR$/features/usa_gov.feature" />
-        <option value="$PROJECT_DIR$/pages/base_page_module.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -401,9 +405,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -512,10 +514,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.Enter search - more than 50 characters - truncation" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber.USA.gov" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.navigate to bond calculator from home page" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber.usa_gov" />
       </list>
     </recent_temporary>
   </component>
@@ -529,18 +531,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24932249" sideWeight="0.6712707" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14092664" sideWeight="0.6769231" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22188139" sideWeight="0.4506579" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32287583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5493421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -621,9 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="87" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="87" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
@@ -635,9 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="19" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/Ruby200/bin/cucumber">
@@ -652,16 +650,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.16620111">
-          <folding />
-        </state>
+        <state line="7" column="47" selection-start="229" selection-end="229" vertical-scroll-proportion="0.16620111" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="150" selection-end="150" vertical-scroll-proportion="0.16620111">
-          <folding />
-        </state>
+        <state line="7" column="50" selection-start="150" selection-end="150" vertical-scroll-proportion="0.16620111" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/usa_home_page.rb">
@@ -673,16 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.21368715">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/usa_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="3" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.8575419">
-          <folding />
-        </state>
+        <state line="9" column="3" selection-start="154" selection-end="154" vertical-scroll-proportion="0.21368715" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/steps.rb">
@@ -694,28 +679,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/support/helper_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="6" selection-start="1206" selection-end="1206" vertical-scroll-proportion="1.1871508">
+        <state line="50" column="6" selection-start="1206" selection-end="1206" vertical-scroll-proportion="1.1871508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/usa_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="3" selection-start="1730" selection-end="1730" vertical-scroll-proportion="0.8578767">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/usa_gov.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="33" selection-start="3758" selection-end="3758" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
+        <state line="90" column="39" selection-start="3815" selection-end="3815" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base_page_module.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.2857143">
+        <state line="8" column="6" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/common_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="21" selection-start="683" selection-end="683" vertical-scroll-proportion="0.7782258">
           <folding />
         </state>
       </provider>

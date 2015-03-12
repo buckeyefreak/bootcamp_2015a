@@ -17,6 +17,7 @@ Then /^I will be on the "([^"]*)" page$/ do |page_title|
   end
   expect(@current_page.browser_title).to include(page_title)
 end
+
 Given /^I click the "([^"]*)" link$/ do |link_name|
   @current_page.navigate_by_link(link_name)
 end
