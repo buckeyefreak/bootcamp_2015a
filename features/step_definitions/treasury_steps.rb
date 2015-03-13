@@ -1,4 +1,4 @@
-######### exists--------------------------------------------------------
+########## exists--------------------------------------------------------
 Then(/^I see "(.*?)"$/) do |section|
   section = section.downcase.gsub!(' ','_')
     expect(@current_page.send(section)).to be_visible
