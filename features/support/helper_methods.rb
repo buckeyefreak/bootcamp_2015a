@@ -48,7 +48,6 @@ module HelperMethods
           fail ("Comparison #{compare_to} not supported")
       end
     end
-
   end
 
   # make Methods instance methods in objects that include HelperMethods

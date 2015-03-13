@@ -6,4 +6,4 @@ require 'titleize'
 require_relative 'helper_methods.rb'
 require_relative "../../pages/base_page_module.rb"
 require_relative "../../pages/usa_home_page.rb"
-require_relative "../../pages/calculate_savings_bond_page.rb"
+require_relative "../../pages/savings_bond_page.rb"
