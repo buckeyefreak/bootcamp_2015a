@@ -6,6 +6,8 @@ Then(/^I "(.*?)" "(.*?)"$/) do |view, section|
       expect(@current_page.send(section)).to exist
     when 'do not see'
       expect(@current_page.send(section)).to_not exist
+    else
+      fail('This action is not defined.')
   end
 end
 

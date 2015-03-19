@@ -6,3 +6,4 @@ gem 'rspec'
 
 #use to make all words in a string start with uppercase
 gem 'titleize'
+gem 'page-object'

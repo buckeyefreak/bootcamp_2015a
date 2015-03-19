@@ -54,7 +54,7 @@ Feature: treasury.gov
     Then the "denomination options" should be "$10, $25, $50, $75, $100, $200, $500, $1000, $5000, $10000"
 
   Scenario: Series list options
-    Then the "bond options" should be "EE Bonds, I Bonds, E Bonds, Savings Notes"
+    Then the "bond options" should be "EE, I, E, SN"
 
 
 ############# calculating-----------------------------------------------------------------------
@@ -71,8 +71,8 @@ Feature: treasury.gov
     | EE   | $50          | 01/1980 |
     | I    | $50          | 05/1999 |
     | I    | $50          | 01/2008 |
-    | E    | $10          | 05/1952 |
-    | E    | $10          | 06/1980 |
+    | E    | $10          | 06/1944 |
+    | E    | $10          | 03/1950 |
     | SN   | $25          | 05/1967 |
     | SN   | $25          | 10/1970 |
 
@@ -86,9 +86,9 @@ Feature: treasury.gov
   Examples:
     | bond | denomination | date    |
     | SN   | $25          | 10/1970 |
-    #| SN   | $50          | 10/1970 |
-    #| SN   | $75          | 10/1970 |
-    #| SN   | $100         | 10/1970 |
+    | SN   | $50          | 10/1970 |
+    | SN   | $75          | 10/1970 |
+    | SN   | $100         | 10/1970 |
 
   ########## failures------------------------------------------------------------------------------
   Scenario Outline: SN Denominations fail
@@ -110,9 +110,9 @@ Feature: treasury.gov
 
 
   Scenario Outline:Failing minimum denomination
-    When I have selected "<bond>"
-    And I have selected "<denomination>" denomination
-    And I have entered a "<date>" in issue date field
+    When I select the "<bond>" bond
+    And I select amount of "<denomination>"
+    And I enter "<date>"
     And I click "calculate"
     Then I "do not see" "results section"
 
@@ -133,9 +133,9 @@ Feature: treasury.gov
   Examples:
     | bond | denomination | date    |
     | EE   | $50          | 12/1979 |
-    | E    | $50          | 04/1952 |
-    | E    | $50          | 07/1980 |
-    | I    | $50          | 04/1999 |
-    | I    | $50          | 02/2008 |
+    | E    | $10          | 05/1944 |
+    | E    | $10          | 04/1950 |
+    | I    | $50          | 08/1998 |
+    | I    | $50          | 04/2015 |
     | SN   | $50          | 04/1967 |
     | SN   | $50          | 11/1970 |
